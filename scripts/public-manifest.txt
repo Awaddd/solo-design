@@ -13,8 +13,6 @@ specs/cli/
 specs/engine/
 specs/project/
 specs/context.md
-docs/testing.md
-docs/design-notes/
 .github/
 .gitignore
 Cargo.toml

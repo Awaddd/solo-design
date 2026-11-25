@@ -10,7 +10,7 @@
 | CI | GitHub Actions (`.github/workflows/ci.yml`) |
 
 ## Conventions
-- Tests never need real Docker, credentials or a model: integration tests pass the runtime a fake `docker` script path (written by a child process; see docs/testing.md) and a test-only engine, with an injected interruption flag.
+- Tests never need real Docker, credentials or a model: integration tests pass the runtime a fake `docker` script path (written by a child process) and a test-only engine, with an injected interruption flag.
 - Numbered project notes: `docs/NNNN_topic.md`.
 - Design process, design-pack and font conventions are kept with the private kits, outside this repo. Design packs and run outputs are never committed (see AGENTS.md, .gitignore).
 
