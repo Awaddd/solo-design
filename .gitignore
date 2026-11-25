@@ -1,0 +1,10 @@
+/target/
+/runs/
+/workspace/
+.env
+*.env
+# Design packs and brand material live in the private kits, never here:
+/lib/
+/references/
+/tasks/*brand*
+/docs/snapshots/

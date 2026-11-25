@@ -1,0 +1,26 @@
+# Public engine tree: one path per line (a file, or a directory prefix
+# ending in /). `#` starts a comment; `!path` excludes. Every included path
+# must be tracked at HEAD, or the export fails naming it.
+src/
+tests/
+docker/pi/
+agents/frontend-genjutsu/
+examples/
+scripts/
+!scripts/public-overlay/
+!scripts/private-deny.sha256
+specs/cli/
+specs/engine/
+specs/project/
+specs/context.md
+docs/testing.md
+docs/design-notes/
+.github/
+.gitignore
+Cargo.toml
+Cargo.lock
+README.md
+AGENTS.md
+LICENSE-APACHE
+LICENSE-MIT
+THIRD_PARTY_NOTICES.md
